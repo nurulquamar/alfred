@@ -9,7 +9,7 @@ import requests
 import json
 
 # instantiate Slack client
-slack_client = SlackClient("xoxb-293141756995-fS8kkXyuVwth7a6ncEItyFcC")
+slack_client = SlackClient("") //Add the token here
 # alfred's user ID in Slack: value is assigned after the bot starts up
 alfred_id = None
 
